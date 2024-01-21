@@ -1,10 +1,10 @@
 from flask import Flask
-from random import randint
+import random
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    if(randint()):
+    if(random.randint(0,1)):
         return 'Toads'
     else:
         return 'Frogs'
