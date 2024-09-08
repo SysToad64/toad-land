@@ -7,4 +7,4 @@ def hello_world():
     if(random.randint(0,1)):
         return 'Toads'
     else:
-        return 'Toads'
+        return 'Froads'
